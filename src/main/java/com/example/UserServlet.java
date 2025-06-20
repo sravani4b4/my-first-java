@@ -6,9 +6,9 @@ import java.io.*;
 import java.sql.*;
 
 public class UserServlet extends HttpServlet {
-    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/vamsi";
+    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/sravani";
     private static final String JDBC_USERNAME = "root";
-    private static final String JDBC_PASSWORD = "Vamsi$97";
+    private static final String JDBC_PASSWORD = "srav@12";
 
     // Method to display users
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
